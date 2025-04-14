@@ -13,6 +13,29 @@ img{
   margin-bottom: 1%;
 }
 
+.card-contact{
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   width: 300px;
+   text-align: center;
+   transition: transform 0.2s ease;
+   border-bottom: 2px solid #666363;
+   border-top: 1px solid #666363;
+   border-left: 1px solid #666363;
+   border-right: 2px solid #666363;
+}
+
+.card-contact p{
+   color: #3498db;
+   line-height: 0.5em;
+}
+
+.card-contact a {
+text-decoration: none;
+}
+
 .row{
   display: flex;  
   flex: 1;
