@@ -65,7 +65,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR,'frontend/static'),
+            os.path.join(BASE_DIR, 'frontend/static'),
             os.path.join(BASE_DIR, 'frontend/build'),
             os.path.join(BASE_DIR, 'frontend/build/static'),
             ],
@@ -96,8 +96,8 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+     'NAME':
+     'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME':
@@ -142,8 +142,7 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'frontend/static'),
+    os.path.join(BASE_DIR, 'frontend/static'),
     os.path.join(BASE_DIR, 'frontend/build'),
     os.path.join(BASE_DIR, 'frontend/build/static'),
 ]
-
